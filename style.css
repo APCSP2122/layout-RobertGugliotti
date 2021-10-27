@@ -1,0 +1,47 @@
+html{
+    font-size:62.5%;      /*default font size is 16px- 62.5% of 16 is 10px-
+                            1 rem (relative unit) now will be equivalent to 10px} */
+}
+body{
+    margin:0;
+    color:#000;
+    font-size:2rem;
+    text-align:center;
+}
+header {
+    background-color: deepskyblue;
+    border:10px solid orange;
+    padding: 10px;
+    margin:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+main {
+    background-color:darkblue;
+     border:10px solid orange;
+      padding: 50px;
+       margin:50px;
+        display: flex;
+         justify-content: space-around;
+}
+footer{
+    background-color:deepskyblue;
+     border:10px solid orange;
+      padding: 50px;
+       margin:50px;
+}
+section{
+    background-color:yellow;
+    margin:25px;
+    width:70vw;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+aside{
+    background-color:lightgreen;
+    margin:20px;
+    padding:30px;
+    
+}
